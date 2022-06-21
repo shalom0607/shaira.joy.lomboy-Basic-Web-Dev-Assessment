@@ -1,0 +1,37 @@
+[
+
+        {
+        "name": "ACER LAPTOP",
+        "brand": "ACER",
+        "description": "LAPTOP",
+        "price": "30000",
+        "image" : "images/acer-laptop.jpg"
+        },
+        
+        {
+        "name": "HP DESKTOP",
+        "brand": "HP",
+        "description": "DESKTOP",
+        "price": "40000",
+        "image" : "images/hp-desktop.jpg"
+        },
+        
+        {
+        
+        "name": "SAMSUNG TABLET",
+        "brand": "SAMSUNG",
+        "description": "TABLET",
+        "price": "15000",
+        "image" : "images/samsung-tab.jpg"
+        },
+
+        {
+        "name": "IPHONE 12",  
+        "brand": "APPLE", 
+        "description": "IPHONE",
+        "price": "40000",
+        "image" : "images/apple12.png" 
+        }
+
+
+]

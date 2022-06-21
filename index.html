@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Add To Cart - Gadgets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <header>
+      <div class = "container">
+        <!-- navbar -->
+        <nav class = "navbar">
+          <a href = "index.html" class = "navbar-brand">GadgetsPH</a>
+          <div class = "cart">
+            <button type = "button" id = "cartBtn">
+              <i class = "fas fa-shopping-cart"></i>
+              <span id = "cartCountInfo"></span>
+            </button>
+            
+            <div class = "cart-container">
+              <div class = "cartList">
+              </div>
+              <div class = "cartTotal">
+                <h3>Total: &#8369</h3>
+                <span id = "cartTotalValue"></span>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        
+
+  <div id="slider">  
+    <div class="slide">
+      <img src="images/carousel-1.jpg" >
+    </div>
+    
+    <div class="slide">
+       <img src="images/carousel-2.jpg" >
+    </div>
+   
+    <div class="slide">
+      <img src="images/carousel-3.jpg" >
+    </div>
+    
+    <div class="slide">
+      <img src="images/carousel-4.jpg" >
+    </div>
+
+  
+<span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+</span>
+  <span class="controls" id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+</span>
+</div>
+  <div id="dots-con">
+ <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+ </div>
+
+      </div>
+    </header>
+
+    <section class = "products">
+      <div class = "container">
+        <h2>Our Products</h2>
+        <div class = "productList">
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
